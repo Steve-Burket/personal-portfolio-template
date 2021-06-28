@@ -370,11 +370,13 @@
         <!-- Contact Section Form-->
         <div class="row justify-content-center">
           <div class="col-lg-8 col-xl-7">
-            <div style='text-align: center; color: black';>
+            <div style='text-align: center; color: black; font-size: 20px;';>
              <u>Phone number</u> <br/>
-              +1-(605)-359-9453<br/>
+              +1(605)-359-9453<br/>
               <u>Email</u><br/>
-              burketsteve@gmail.com
+
+              <a href=mailto:burketsteve@gmail.com?subject="HTML link">burketsteve@gmail.com</a>
+              
             </div>
             <!-- * * * * * * * * * * * * * * *-->
             <!-- * * SB Forms Contact Form * *-->
@@ -491,25 +493,23 @@
           <div class="col-lg-4 mb-5 mb-lg-0">
             <h4 class="text-uppercase mb-4">Location</h4>
             <p class="lead mb-0">
-              915 3rd st N
-              <br />
-              Fargo, ND 58103
+              Fargo, ND 
             </p>
           </div>
           <!-- Footer Social Icons-->
           <div class="col-lg-4 mb-5 mb-lg-0">
             <h4 class="text-uppercase mb-4">Around the Web</h4>
-            <a class="btn btn-outline-light btn-social mx-1" href="facebook.com/steve.E.burket"
+            <a class="btn btn-outline-light btn-social mx-1" href="http://www.facebook.com/steve.E.burket"
               ><i class="fab fa-fw fa-facebook-f"></i
             ></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"
+            <!-- <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/steve-burket-605/"
               ><i class="fab fa-fw fa-twitter"></i
-            ></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"
+            ></a> -->
+            <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/steve-burket-605/"
               ><i class="fab fa-fw fa-linkedin-in"></i
             ></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"
-              ><i class="fab fa-fw fa-dribbble"></i
+            <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/Steve-Burket"
+              ><i class="fab fa-fw fa-github"></i
             ></a>
           </div>
           <!-- Footer About Text-->
@@ -576,7 +576,7 @@
                   <img
                     class="img-fluid rounded mb-5"
                     src="assets/img/portfolio/LessonsWithLogIn.png"
-                    alt="..."
+                    alt="Pic of the Login Page for LessonsWith"
                   />
                   <!-- Portfolio Modal - Text-->
                   <p class="mb-4">
@@ -596,6 +596,7 @@
                     <i class="fas fa-times fa-fw"></i>
                     Close Window
                   </button>
+                  <div><a hre='https://github.com/Steve-Burket/solo-project-lessons-with'>View Code</a></div>
                 </div>
               </div>
             </div>
@@ -633,7 +634,7 @@
                       mb-0
                     "
                   >
-                    Tasty Cake
+                    Awesome Calculator
                   </h2>
                   <!-- Icon Divider-->
                   <div class="divider-custom">
@@ -646,16 +647,17 @@
                   <!-- Portfolio Modal - Image-->
                   <img
                     class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/cake.png"
+                    src="assets/img/portfolio/calculator.png"
                     alt="..."
                   />
                   <!-- Portfolio Modal - Text-->
                   <p class="mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Mollitia neque assumenda ipsam nihil, molestias magnam,
-                    recusandae quos quis inventore quisquam velit asperiores,
-                    vitae? Reprehenderit soluta, eos quod consequuntur itaque.
-                    Nam.
+                In this project, I used the knowledge I gained from that week's lessons 
+                on building an app from the server side. All logic for the calculator is 
+                written in the backend on the server then brought through by jQuery and 
+                displayed on the DOM from the index.html file. I had a lot of fun solving the logic
+                problem of building a functioning calculator that does basic math. I also really enjoyed 
+                stlying it up a bit to make it POP!
                   </p>
                   <button
                     class="btn btn-primary"
@@ -665,6 +667,8 @@
                     <i class="fas fa-times fa-fw"></i>
                     Close Window
                   </button>
+                  <div><a href='https://steves-server-side-calculator.herokuapp.com/'>View Website</a></div>
+                  <div><a href='https://github.com/Steve-Burket/jquery-server-side-calculator'>View Code</a></div>
                 </div>
               </div>
             </div>
@@ -702,7 +706,7 @@
                       mb-0
                     "
                   >
-                    Circus Tent
+                    TaDa!
                   </h2>
                   <!-- Icon Divider-->
                   <div class="divider-custom">
@@ -715,16 +719,19 @@
                   <!-- Portfolio Modal - Image-->
                   <img
                     class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/circus.png"
-                    alt="..."
+                    src="assets/img/portfolio/todo-app.png"
+                    alt="Pic of my ToDo app"
                   />
                   <!-- Portfolio Modal - Text-->
                   <p class="mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Mollitia neque assumenda ipsam nihil, molestias magnam,
-                    recusandae quos quis inventore quisquam velit asperiores,
-                    vitae? Reprehenderit soluta, eos quod consequuntur itaque.
-                    Nam.
+                I built a basic ToDo app that I call "TaDa!" where you can turn your ToDos into TaDas.
+                This was a weekend challenge in which I was assigned the task to create a Todo app 
+                that uses a PostgresSQL database to store the data. This was the first challenge
+                where were supposed to think about making a CRUD app. I used Postico to write queries
+                and transfer data about the task description and whether it was completed. It also 
+                has a delete function to it as well. In this project, I also became more comfortable 
+                with conditionally rendering something on the DOM using jQuery. In this case, a green block 
+                that say "TaDa!" renders when the user clicks on "Complete".
                   </p>
                   <button
                     class="btn btn-primary"
@@ -734,6 +741,9 @@
                     <i class="fas fa-times fa-fw"></i>
                     Close Window
                   </button>
+                  <div><a href='https://floating-shelf-98904.herokuapp.com/'>View Website</a></div>
+
+                  <div><a href='https://github.com/Steve-Burket/weekend-sql-to-do-list'>View Code</a></div>
                 </div>
               </div>
             </div>
